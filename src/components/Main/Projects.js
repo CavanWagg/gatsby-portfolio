@@ -3,13 +3,13 @@ import React from "react"
 export default () =>
 
   <section className="main-grid" id="two">
-    <header class="major"><h2>Recent Work</h2></header>
-    <div class="row">
-      <article class="work-item">
+    <header className="major"><h2>Recent Work</h2></header>
+    <div className="work-container">
+      <article className="work-item">
         <a
           target="_blank"
           href="https://donationnation.herokuapp.com/"
-          class="image fit thumb"
+          className="image fit thumb"
         ><img src="/images/love-foundation.png" alt="Donation App"
           /></a>
 
@@ -20,11 +20,11 @@ export default () =>
           Stripe API.
             </p>
       </article>
-      <article class="work-item">
+      <article className="work-item">
         <a
           target="_blank"
           href="https://footballer-app.herokuapp.com/"
-          class="image fit thumb"
+          className="image fit thumb"
         ><img src="/images/footballer.png" alt="Footballer Game"
           /></a>
 
@@ -37,11 +37,11 @@ export default () =>
           outcome of the play.
             </p>
       </article>
-      <article class="work-item">
+      <article className="work-item">
         <a
           target="_blank"
           href="https://boringpoliticalapp.herokuapp.com/"
-          class="image fit thumb"
+          className="image fit thumb"
         ><img src="/images/Political.png" alt="Political App"
           /></a>
 
@@ -52,11 +52,11 @@ export default () =>
           on address or location.
             </p>
       </article>
-      <article class="work-item">
+      <article className="work-item">
         <a
           target="_blank"
           href="https://priceless-leakey-c384c9.netlify.com/"
-          class="image fit thumb"
+          className="image fit thumb"
         ><img src="/images/Pomodoro.png" alt="Pomodoro App"
           /></a>
 
@@ -67,11 +67,11 @@ export default () =>
           sound or web notifications.
             </p>
       </article>
-      <article class="work-item">
+      <article className="work-item">
         <a
           target="_blank"
           href="https://reactjs-nyt-search.herokuapp.com"
-          class="image fit thumb"
+          className="image fit thumb"
         ><img src="/images/nyt-react.png" alt="Article Search App"
           /></a>
 
@@ -82,11 +82,11 @@ export default () =>
           database.
             </p>
       </article>
-      <article class="work-item">
+      <article className="work-item">
         <a
           target="_blank"
           href="https://unruffled-lumiere-91d1f3.netlify.com/"
-          class="image fit thumb"
+          className="image fit thumb"
         ><img src="/images/Train.png" alt="Train Scheduler App"
           /></a>
 

@@ -4,7 +4,7 @@ export default () =>
 
   <main className="main-grid section-one">
     <section>
-      <header class="major"><h2>Divergent Problem Solver</h2></header>
+      <header className="major"><h2>Divergent Problem Solver</h2></header>
       <p>
         I enjoy confronting new technology, problems, and ideas with a curious
         and analytical mindset. I am eager to contribute my programming skills
@@ -12,12 +12,12 @@ export default () =>
     </p>
     </section>
     <section id="one-a">
-      <header class="major"><h2>My Skills</h2></header>
+      <header className="major"><h2>My Skills</h2></header>
       <p>
         “Knowledge is a tool, and like all tools, its impact is in the hands
         of the user.” - Dan Brown
         </p>
-      <ul class="list-skills">
+      <ul className="list-skills">
         <li>Angular</li>
         <li>Bootstrap</li>
         <li>CSS3</li>
@@ -32,6 +32,7 @@ export default () =>
         <li>MySQL</li>
         <li>Node</li>
         <li>React</li>
+        <li> </li>
       </ul>
     </section>
   </main>

@@ -1,9 +1,10 @@
 import React from "react"
+import Footer from '../Footer'
 
-export default () =>
-
+export default () => {
+  return (
   <header className="main-grid" id="header">
-    <div class="header-content">
+    <div className="header-content">
       <div href="#" className="avatar"
       ><img
           className="face"
@@ -15,4 +16,6 @@ export default () =>
         &amp; <strong>Handcrafted Code Creator</strong>
       </h1>
     </div>
+    <Footer footerType="footer-landscape" />
   </header>
+  )}
