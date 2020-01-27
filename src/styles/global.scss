@@ -150,7 +150,7 @@ ul {
 }
 
 .header {
-  background-color: $color-dark;
+  background-color: $color-header;
   background-image: url(../../static/services-bg.jpg);
   background-size: cover;
   background-blend-mode: multiply;
@@ -264,7 +264,7 @@ ul {
   position: relative;
   width: 130px;
   border-radius: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
 .copyright {
@@ -324,7 +324,7 @@ ul {
 }
 
 .footer-mobile {
-  background-color: $color-dark;
+  background-color: $color-header;
   background-image: url(../../static/services-bg.jpg);
   background-size: cover;
   background-blend-mode: multiply;
