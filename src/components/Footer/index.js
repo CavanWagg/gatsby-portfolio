@@ -32,7 +32,7 @@ export default ({footerType}) => {
         </li>
       </ul>
       <ul className="copyright">
-        <li id="site-copy-info">&copy; Cavan Wagg 2020</li>
+        <li className="copy-info">&copy; Cavan Wagg 2020</li>
       </ul>
     </div>
   </footer>

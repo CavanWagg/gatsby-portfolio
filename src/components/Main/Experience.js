@@ -1,19 +1,21 @@
 import React from "react"
 
 export default () =>
-  <>
-    <section className="main-grid" id="three">
+  <div className="main-grid">
+    <section className="three">
       <header className="major"><h2>Professional Experience</h2></header>
       <ul className="list-experience">
         <li>
-          <h3 className="work-role">Front-End Developer</h3>
-          <p className="work-location">App To Succeed</p>
-          <p className="work-duration">Jan 2019 - Present</p>
+          <h3 className="work-role">Full Stack Developer</h3>
+          <p className="work-location">
+            Spark Labs, Minneapolis-St. Paul Area
+          </p>
+          <p className="work-duration">Apr 2019 - Present</p>
         </li>
         <li>
-          <h3 className="work-role">Estimating Analyst</h3>
-          <p className="work-location">Faithful+Gould, Minneapolis, MN</p>
-          <p className="work-duration">April 2016 - Present</p>
+          <h3 className="work-role">Front-End Developer Volunteer</h3>
+          <p className="work-location">App To Succeed</p>
+          <p className="work-duration">Jan 2019 - Apr 2019</p>
         </li>
         <li>
           <h3 className="work-role">Co-Founder and Partner</h3>
@@ -23,18 +25,16 @@ export default () =>
           <p className="work-duration">Nov 2017 - Present</p>
         </li>
         <li>
-          <h3 className="work-role">Energy Modeling Associate</h3>
-          <p className="work-location">
-            Residential Science Resources, Eagan, MN
-            </p>
-          <p className="work-duration">Feb 2015 - March 2016</p>
+          <h3 className="work-role">Estimating Analyst</h3>
+          <p className="work-location">Faithful+Gould, Minneapolis, MN</p>
+          <p className="work-duration">Apr 2016 - Apr 2019</p>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/cavan-wagg/">More...</a>
         </li>
       </ul>
     </section>
-    <section className="main-grid" id="four">
+    <section className="four">
       <header className="major"><h2>Education</h2></header>
       <ul className="list-experience">
         <li>
@@ -51,4 +51,4 @@ export default () =>
         </li>
       </ul>
     </section>
-  </>
+  </div>

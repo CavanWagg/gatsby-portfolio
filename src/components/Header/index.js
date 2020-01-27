@@ -3,7 +3,7 @@ import Footer from '../Footer'
 
 export default () => {
   return (
-  <header className="main-grid" id="header">
+  <header className="main-grid header">
     <div className="header-content">
       <div href="#" className="avatar"
       ><img
@@ -11,9 +11,8 @@ export default () => {
           src={"/images/wagg-cavan.png"}
           alt="Cavan Wagg - Front End Developer"
         /></div>
-      <h1>
-        I'm Cavan, <strong>Front End Developer</strong> <br />
-        &amp; <strong>Handcrafted Code Creator</strong>
+      <h1 className='header-title'>
+       I'm <span>Cavan</span> <br/><strong>front-end dev</strong>
       </h1>
     </div>
     <Footer footerType="footer-landscape" />
