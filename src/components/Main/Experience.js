@@ -6,7 +6,7 @@ export default () =>
       <header className="major"><h2>Professional Experience</h2></header>
       <ul className="list-experience">
         <li>
-          <h3 className="work-role">Full Stack Developer</h3>
+          <h3 className="work-role">Front-End Developer</h3>
           <p className="work-location">
             Spark Labs, Minneapolis-St. Paul Area
           </p>
