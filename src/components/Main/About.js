@@ -29,7 +29,7 @@ export default () =>
         <li>Jira</li>
         <li>jQuery</li>
         <li>MongoDB</li>
-        <li>MySQL</li>
+        <li>AWS</li>
         <li>Node</li>
       </ul>
     </section>

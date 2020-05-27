@@ -1,4 +1,9 @@
 import React from "react"
+import drinkmaker from "../../../static/drinkmaker.jpg"
+import loveFoundation from "../../../static/love-foundation.png"
+import pomodoro from "../../../static/pomodoro.png"
+import sickFits from "../../../static/sick-fits.png"
+
 
 export default () =>
   <div className="main-grid">
@@ -10,7 +15,7 @@ export default () =>
             target="_blank"
             href="https://drinkworks.com/"
             className="image fit thumb"
-          ><img src="/images/drinkmaker.jpg" alt="Drinkworks"
+          ><img src={drinkmaker} alt="Drinkworks"
             /></a>
 
           <h3>Drinkworks<span>&#174;</span></h3>
@@ -23,7 +28,7 @@ export default () =>
             target="_blank"
             href="https://sickfits-next-ckw.herokuapp.com/items"
             className="image fit thumb"
-          ><img src="/images/sick-fits.png" alt="Drinkworks"
+          ><img src={sickFits} alt="Drinkworks"
             /></a>
 
           <h3>Sick Fits</h3>
@@ -36,7 +41,7 @@ export default () =>
             target="_blank"
             href="https://priceless-leakey-c384c9.netlify.com/"
             className="image fit thumb"
-          ><img src="/images/Pomodoro.png" alt="Pomodoro App"
+          ><img src={pomodoro} alt="Pomodoro App"
             /></a>
           <h3>React Pomodoro</h3>
           <p>
@@ -50,7 +55,7 @@ export default () =>
             target="_blank"
             href="https://donationnation.herokuapp.com/"
             className="image fit thumb"
-          ><img src="/images/love-foundation.png" alt="Donation App"
+          ><img src={loveFoundation} alt="Donation App"
             /></a>
 
           <h3>Love Foundation</h3>
