@@ -125,7 +125,7 @@ a {
   grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
   grid-column-gap: 1em;
   @media (min-width: $break-small) {
-    grid-template-columns: 30% minmax(1em, 4em) 1fr 1fr minmax(1em, 20em);
+    grid-template-columns: 30% minmax(1em, 4em) minmax(235px,1fr) minmax(235px,1fr) minmax(1em, 2fr);
   }
 }
 
@@ -197,14 +197,19 @@ ul {
   }
   margin: 0;
 }
-
+.second-h2 {
+  margin: 1em 0 1em;
+}
 .list-skills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   list-style: none;
   padding-left: 0;
   font-family: $font-secondary;
   margin: 0;
+  @media (min-width: $break-small) {
+  grid-template-columns: repeat(3, 1fr);
+  }
 
   li {
     border-bottom: 1px solid #ccc;

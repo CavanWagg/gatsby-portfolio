@@ -11,26 +11,35 @@ export default () =>
     </p>
     </section>
     <section className="one-a">
-      <header className="major"><h2>My Skills</h2></header>
-      <p className="quote">
-        “Knowledge is a tool, and like all tools, its impact is in the hands
-        of the user.” <span> - Dan Brown </span>
-      </p>
+      <header className="major"><h2>Strong Skills</h2></header>
       <ul className="list-skills">
+        <li>Javascript</li>
         <li>React</li>
-        <li>Redux</li>
+        <li>Git</li>
         <li>HTML5</li>
         <li>CSS3</li>
+        <li>Styled Components</li>
         <li>Responsive Design</li>
-        <li>Express</li>
-        <li>Git</li>
-        <li>Heroku</li>
-        <li>Javascript</li>
-        <li>Jira</li>
-        <li>jQuery</li>
-        <li>MongoDB</li>
-        <li>AWS</li>
+      </ul>
+      <h2 className="second-h2">Experienced Skills</h2>
+      <ul className="list-skills">
         <li>Node</li>
+        <li>Redux</li>
+        <li>AWS</li>
+        <li>Express</li>
+        <li>Graphql</li>
+        <li>Serverless</li>
+        <li>Testing/Jest</li>
+        <li>Google Tag Manager</li>
+        <li>Analytics</li>
+        <li>Storybook</li>
+        <li>Mongo</li>
+        <li>Wordpress</li>
+        <li>Contentful</li>
+        <li>Sentry</li>
+        <li>Smartlook</li>
+        <li>Sprints/Agile</li>
+        <li>Angular</li>
       </ul>
     </section>
   </main>
